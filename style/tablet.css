@@ -1,0 +1,190 @@
+@media (min-width: 376px) {
+    .main__description {
+        max-width: 100%;
+    }
+}
+@media (min-width: 445px) {
+    .del {
+        display: none;
+    }
+}
+@media (min-width: 768px) {
+    .header__chess {
+        background: none;
+    }
+    .header__link {
+        background: transparent;
+        border: 2px solid #1f1f1f;
+        transition: ease 0.3s;
+    }
+
+    .header__link:active {
+        background-color: var(--black);
+        color: var(--white);
+    }
+
+    .global__wrapper {
+        background-image: url(../img/big-city.png);
+        background-repeat: no-repeat;
+        background-position: 46% 107%;
+    }
+    .header__logo {
+        width: 245px;
+        height: 36px;
+    }
+    .container {
+        padding: 0 71px;
+    }
+    .header__navigation {
+        padding-top: 26px;
+    }
+    .header__title {
+        font-size: 60px;
+        max-width: 546px;
+    }
+    .header__chess {
+        padding-top: 58px;
+        padding-bottom: 118px;
+    }
+    .header__description {
+        text-align: center;
+        max-width: 546px;
+        margin-bottom: 40px;
+    }
+    .header__wrapp {
+        display: flex;
+        justify-content: space-between;
+        max-width: 540px;
+        align-items: start;
+    }
+    .header__button {
+        padding: 17px 44px;
+        margin-bottom: 15px;
+        max-width: 175px;
+    }
+    .header__link {
+        padding: 16px 81px;
+        max-width: 94px;
+    }
+    .header__tagline {
+        font-size: 22px;
+        padding: 15px 0;
+    }
+    .party__tagline {
+        font-size: 22px;
+        padding: 17px 0;
+    }
+
+    /* main */
+    .main__box {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        align-items: center;
+        margin-bottom: 65px;
+        max-width: 1223px;
+    }
+    .main__img {
+        width: 467px;
+        height: 553px;
+    }
+    .main__title-disappear--none,
+    .delete {
+        display: none;
+    }
+    .none {
+        display: block;
+    }
+    .main__title {
+        max-width: 750px;
+        font-size: 36px;
+        margin-bottom: 0;
+    }
+    .main__ticket {
+        padding-top: 81px;
+    }
+    .main__image {
+        width: 394px;
+        height: 250px;
+        margin-bottom: 0;
+    }
+    .main__wrapper {
+        max-width: 393px;
+    }
+
+    .main__item {
+        max-width: 600px;
+        margin-bottom: 16px;
+    }
+    .main__list {
+        display: flex;
+        flex-direction: column;
+    }
+    .main__cover {
+        display: flex;
+        justify-content: space-between;
+        max-width: 534px;
+    }
+    .main__link {
+        font-size: 20px;
+    }
+    .main__items--indent {
+        margin-bottom: 0;
+    }
+    .main__cover--two {
+        max-width: 547px;
+    }
+    .main__cover--five {
+        max-width: 557px;
+    }
+    .main__cover--four {
+        max-width: 393px;
+    }
+    .main__item--one {
+        order: -1;
+    }
+    .main__item--two {
+        order: 2;
+    }
+    .main__item--three {
+        order: 4;
+    }
+    .main__item--four {
+        order: 3;
+    }
+    .main__item--five {
+        order: 5;
+    }
+    .main__item-single {
+        order: 6;
+    }
+}
+@media (min-width: 980px) {
+    .main__global-wrapper {
+        display: grid;
+        grid-template-areas:
+            "a b"
+            "a c";
+        max-width: 1224px;
+    }
+
+    .main__shadow {
+        grid-area: a;
+    }
+    .main__description {
+        grid-area: b;
+        font-size: 36px;
+        max-width: 680px;
+        margin-bottom: 13px;
+    }
+    .main__item:nth-child(5n) {
+        margin-bottom: 31px;
+        border: none;
+    }
+    .main__list {
+        grid-area: c;
+    }
+    .main__img {
+        transform: translateY(-24px);
+    }
+}
