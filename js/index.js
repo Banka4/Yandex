@@ -44,8 +44,8 @@ $(".party__list").slick({
     adaptiveHeight: true,
     prevArrow: $(".party__btn-left"),
     nextArrow: $(".party__btn-right"),
-    // autoplay: true,
-    // autoplaySpeed: 4000,
+    autoplay: true,
+    autoplaySpeed: 4000,
     responsive: [
         {
             breakpoint: 980,
